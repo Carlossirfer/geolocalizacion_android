@@ -34,6 +34,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private double lng = 0.0;
     private Boolean isGPSEnabled;
     LocationManager locationManager;
+    private int prueba=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
